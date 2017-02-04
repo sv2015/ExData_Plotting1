@@ -1,19 +1,3 @@
-## Programming Assignment
-1. Create data folder if one does not exist
-2. Download data from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
-3. Unzip the data file 
-
-4. read the data 
-5. convert the date field to date type
-6. subset the data to the date range of interest
-7. create a new col for datetime which is a formatted date time of date and time cols
-
-8. open the graphics device (png() in this case) and give appropriate file name
-9. construct the required plots 
-10. close the graphics device (dev.off)
-
-
-
 ## Introduction
 
 This assignment uses data from
