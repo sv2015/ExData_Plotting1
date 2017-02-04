@@ -37,7 +37,7 @@ png(filename="plot4.png", width = 480, height = 480)
 par(mfrow=c(2, 2))
 
 #plot 1
-plot(epcsub$DateTime, epcsub$Global_active_power, xlab = "", ylab = "Global Active Power (kilowatts)", type = "l")
+plot(epcsub$DateTime, epcsub$Global_active_power, xlab = "", ylab = "Global Active Power", type = "l")
 
 #plot 2
 plot(epcsub$DateTime, epcsub$Voltage, xlab = "datetime", ylab = "Voltage", type = "l")
